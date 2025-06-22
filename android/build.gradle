@@ -64,3 +64,9 @@ android {
         }
     }
 }
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation "androidx.media3:media3-transformer:$media3_version"
+    implementation "androidx.media3:media3-common:$media3_version"
+}
