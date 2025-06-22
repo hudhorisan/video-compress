@@ -1,8 +1,9 @@
 group = "com.example.video_processor"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 buildscript {
     ext.kotlin_version = "1.8.22"
+    ext.media3_version = "1.7.1"
     repositories {
         google()
         mavenCentral()
